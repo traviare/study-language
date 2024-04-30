@@ -1,13 +1,13 @@
-import React from "react";
+import style from "./Card.module.scss";
 
-function Card() {
+function Card(props) {
+  const { english, transcription } = this.props;
   return (
     <React.Fragment>
       <div>
-        <p>Theme</p>
-        <p>Word</p>
-        <p>Transcription</p>
-        <button>See translate</button>
+        <p>{english}</p>
+        <p>{transcription}</p>
+        <button>Перевод</button>
       </div>
     </React.Fragment>
   );
