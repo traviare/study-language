@@ -1,1 +1,1 @@
-import style from "./Header.module.scss";
+import styles from "./Header.module.scss";

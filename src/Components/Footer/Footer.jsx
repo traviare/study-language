@@ -1,1 +1,1 @@
-import style from "./Footer.module.scss";
+import styles from "./Footer.module.scss";

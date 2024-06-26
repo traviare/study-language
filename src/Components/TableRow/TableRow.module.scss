@@ -1,0 +1,16 @@
+@import "/src/styles/vars";
+
+.row {
+    text-align: center;
+}
+
+.rowBtn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rowEdit {
+    text-align: center;
+    background-color: bisque;
+    font-size: 15px;
+}

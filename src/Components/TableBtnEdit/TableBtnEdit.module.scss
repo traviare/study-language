@@ -1,0 +1,11 @@
+@import "/src/styles/vars";
+
+.button {
+    background-color: $colorBtnEdit;
+    cursor: pointer;
+}
+
+.button_img {
+    width: 20px;
+    height: 20px;
+}

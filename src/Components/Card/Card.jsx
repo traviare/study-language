@@ -1,7 +1,6 @@
-import style from "./Card.module.scss";
+import styles from "./Card.module.scss";
 
-function Card(props) {
-  const { english, transcription } = this.props;
+function Card({ english, transcription }) {
   return (
     <React.Fragment>
       <div>
